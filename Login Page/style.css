@@ -1,0 +1,91 @@
+*   {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a   {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(33, 33, 248);
+}
+
+body  {
+    background-color: rgb(111, 187, 250);
+}
+
+.card   {
+    width: 350px;
+    padding: 20px;
+    margin: 90px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+}
+
+/* Card Header */
+.card-header     {
+    width: 60px;
+    overflow: cover;
+    margin: 0 auto 50px;
+}
+
+h2  {
+    text-align: center;
+    border-bottom: 2px solid rgb(33, 33, 248);
+}
+
+
+/* Card Body */
+.card-body  {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+label.password  {
+    margin-top: 30px;
+}
+
+.input  {
+    margin-top: 10px;
+    padding: 4px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(33, 33, 248);
+    font-size: 1em;
+}
+
+.forgot {
+    text-align: right;
+    text-decoration: none;
+    color: blue;
+    margin-top: 7px;
+}
+
+/* Card Footer */
+.card-footer    {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.submit     {
+    width: 120px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 248);
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    /* font-size: 14px; */
+}
+
+.submit:hover   {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+}
+
+/* Footer */
+footer  {
+    text-align: center;
+}
